@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*通用页面样式、顶部*/
+* { margin:0; padding:0; list-style-image: none;list-style-type: none;}
+html{-webkit-text-size-adjust:none;}
+body {background-color: #E3E3E3;font-family: "微软雅黑";background-image: url(../images/v4/index_bj.png);background-repeat: repeat-y;background-position: center;}
+img { border:none;}
+.fix {clear:both;height: 1px;font-size: 0px;}
+
+/*浏览器滚动条*/
+::-webkit-scrollbar{width:12px;height:12px}
+::-webkit-scrollbar-button:vertical{display:none}
+::-webkit-scrollbar-track:vertical{background-color:black}
+::-webkit-scrollbar-track-piece{background:#E3E3E3}
+::-webkit-scrollbar-thumb:vertical{background-color:#8E8E8E;border-radius:6px}
+::-webkit-scrollbar-thumb:vertical:hover{background-color:#3B3B3B}
+::-webkit-scrollbar-corner:vertical{background-color:#535353}
+::-webkit-scrollbar-resizer:vertical{background-color:#FF6E00}
+
+/*二级页面顶部导航*/
+.two_no {
+	min-width: 1180px;
+	max-width: 1440px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #F1F1F1;
+	height: 71px;
+}
+
+.two_topk {height: 71px;position: fixed;z-index: 1000;width: 100%;}
+.two_top {
+	height: 51px;
+	background-image: url(../images/v4/two_top_bj.png);
+	background-repeat: repeat-x;
+	padding-top: 20px;
+	min-width: 1180px;
+	max-width: 1440px;
+	margin-right: auto;
+	margin-left: auto;
+	background-position: bottom;
+}
+.two_logo {height: 28px;width: 122px;float: left;padding-left: 30px;}
+.two_logo a {text-decoration:none;display: block;height: 28px;width: 122px;background-image: url(../images/v4/two_logo.png);background-repeat: no-repeat;-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);transform:rotate(0deg);opacity:0.60;}
+.two_logo a:hover {background-image: url(../images/v4/two_logo.png);background-repeat: no-repeat;opacity:0.99;}
+.two_nav {height: 28px;float: right;width: 101px;padding-right: 30px;}
+.two_nav_dhrs {height: 28px;width: 28px;float: right;}
+.two_nav_dhrs a {text-decoration:none;display: block;height: 28px;width: 28px;background-image: url(../images/v4/two_nav_book.png);background-repeat: no-repeat;-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);transform:rotate(0deg);opacity:0.60;}
+.two_nav_dhrs a:hover {text-decoration: none;background-image: url(../images/v4/two_nav_book.png);background-repeat: no-repeat;opacity:0.99;}
+.two_nav_design {height: 28px;width: 28px;float: right;}
+.two_nav_design a {text-decoration:none;display: block;height: 28px;width: 28px;background-image: url(../images/v4/two_nav_design.png);background-repeat: no-repeat;-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);transform:rotate(0deg);opacity:0.60;}
+.two_nav_design a:hover {text-decoration: none;background-image: url(../images/v4/two_nav_design.png);background-repeat: no-repeat;opacity:0.99;}
+.two_nav_x {height: 28px;width: 45px;float: right;}
+
+
+/*版权信息*/
+.copyright {min-width: 1180px;max-width: 1440px;margin-right: auto;margin-left: auto;background-color: #EBEBEB;padding-top: 50px;border-top-width: 1px;border-top-style: solid;border-top-color: #E3E3E3;height: 100px;}
+.copyright_z {float: left;}
+.copyright_z dd.about_logo {width: 46px;height: 50px;float: left;padding-right: 50px;padding-left: 50px;}
+.copyright_z dd.about_logo a {display: block;height: 50px;width: 46px;background-image: url(../images/v4/about_logo_hover.png);-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);transform:rotate(0deg);opacity:0.60;}
+.copyright_z dd.about_logo a:hover {text-decoration: none;background-image: url(../images/v4/about_logo_hover.png);opacity:0.99;}
+.copyright_z dd.copyright_wz {height: 50px;font-family: "微软雅黑";font-size: 14px;color: #999999;float: left;padding-right: 75px;overflow: hidden;}
+.copyright_z dd.copyright_wz a {-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);transform:rotate(0deg);font-family: "微软雅黑";font-size: 12px;color: #666666;line-height: 45px;text-decoration: none;}
+.copyright_z dd.copyright_wz a:hover {text-decoration: none;color: #999999;}
+.copyright_y {height: 40px;padding-top: 10px;float: right;padding-right: 3.2%;}
+.hda {float: right;height: 30px;width: 167px;}
+.hda a {display: block;height: 30px;width: 167px;background-image: url(../images/six/identity.png);background-position: right top;}
+.hda a:hover {text-decoration: none;background-image: url(../images/six/identity.png);background-position: right bottom;}
+.flipboard {float: right;height: 30px;width: 167px;padding-right: 30px;}
+.flipboard a {display: block;height: 30px;width: 167px;background-image: url(../images/six/identity.png);background-position: left top;}
+.flipboard a:hover {text-decoration: none;background-image: url(../images/six/identity.png);background-position: left bottom;}
+.copyright_c {min-width: 1180px;max-width: 1440px;margin-right: auto;margin-left: auto;background-color: #EBEBEB;padding-top: 43px;border-top-width: 1px;border-top-style: solid;border-top-color: #E3E3E3;height: 57px;}
+.m_icon {height: 30px;font-family: "微软雅黑";font-size: 12px;color: #777;float: left;width: 51px;text-align: right;padding-left: 50px;}
+.m_icon a {text-decoration:none;color: #999;background-image: url(../images/v4/m_icon.png);background-repeat: no-repeat;background-position: left top;display: block;}
+.m_icon a:hover {text-decoration: none;color: #777;background-image: url(../images/v4/m_icon.png);background-repeat: no-repeat;background-position: left -30px;}
+.copyright_certificate {height: 30px;font-family: "微软雅黑";font-size: 12px;color: #999999;float: right;padding-right: 3%;}
+.copyright_certificate a {text-decoration:none;color: #999999;}
+.copyright_certificate a:hover {text-decoration: none;color: #888888;}
+.statistics {height: 15px;font-family: Verdana;font-size: 11px;color: #EAEAEA;position: fixed;bottom: -20px;}
+.statistics a { color:#EAEAEA; text-decoration:none;}
+.statistics a:hover {text-decoration:none;}
